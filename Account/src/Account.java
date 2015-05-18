@@ -64,6 +64,10 @@ public class Account {
 				System.out.println("Call the police! Unsecure access!");
 			}
 		}
+		else
+		{
+			System.out.println("Null password submitted, please check and resubmit");
+		}
 	}
 
 }
