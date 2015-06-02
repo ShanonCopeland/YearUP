@@ -47,13 +47,26 @@ public class Loops {
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		int[] arrayInput = {1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,0};
+		
 		// BLAH!
 		int value = 7;
+		int[] arrayInput = {1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,0};
+		System.out.println("//////// REGULAR METHOD ////////");
 		loopSearch(arrayInput,value);
 		loopCount(arrayInput,value);
+		
+		int value2 = 0;
+		int[] arrayInput2 = null;
+		System.out.println("//////// NUll VALUE METHODS ////////");
+		loopSearch(arrayInput2,value2);
+		loopCount(arrayInput2,value2);
+		
+		int value3 = 0;
+		int[] arrayInput3 = {};
+		System.out.println("//////// NO ENTRY METHODS ////////");
+		loopSearch(arrayInput3,value3);
+		loopCount(arrayInput3,value3);
 	}
 
 }
